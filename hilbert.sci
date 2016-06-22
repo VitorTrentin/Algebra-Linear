@@ -1,4 +1,5 @@
-function [hilbert] = createHilbertMatrix(size)
+function [hilbert] = rodrigoHilbert(size)
+//melhor ator ++ gato de mais
     for i=1:size
         for j=1:size
             hilbert(i,j) = 1/(i+j-1)
